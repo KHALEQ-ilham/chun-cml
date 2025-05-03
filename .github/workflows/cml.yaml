@@ -1,6 +1,6 @@
 name: churn-imblanced
 on: [push]
-
+permissions: write-all
 jobs:
   run:
     runs-on: ubuntu-latest
